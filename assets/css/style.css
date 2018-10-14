@@ -1,0 +1,54 @@
+body{
+    margin: 10px;
+    background-image: url("assets/images/tiny-squares.png");
+    height: 850px;
+}
+.jumbotron{
+    border: 5px solid #3a6998d4;
+    background-color: #b531cc5c ; 
+}
+.display-4{
+color: #3a6998;
+text-align: center;
+font-weight: bold;
+}
+.instructions{
+    background-color:#3126335c; 
+    border: 5px solid  #3a6998d4; 
+}
+p{
+    font-weight: bold;
+}
+#result{
+    color: white;
+    background-color:#b531cc5c;
+    border: 3px solid #3a6998d4;
+    width: 400px;
+    margin: 0px 20px;
+}
+h2{
+    color: white;
+    background-color:#b531cc5c;
+    border: 3px solid #3a6998d4;
+    width: 250px;
+    margin: 5px 20px;
+}
+.crystals{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.crystal{
+    border:2px solid #b531cc5c;
+    height:200px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+    
+}
+.crystal:hover{
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.8);
+    transform: translate(5px,20px);
+    transition: transform 1s;
+}
